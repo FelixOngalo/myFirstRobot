@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Control</title>
+</head>
+<body>
+    <h1>Robot Control</h1>
+    <form action="/move" method="post">
+        <label for="linear_x">Linear Velocity (m/s):</label>
+        <input type="number" name="linear_x" step="0.1" value="0.0">
+        <br>
+        <label for="angular_z">Angular Velocity (rad/s):</label>
+        <input type="number" name="angular_z" step="0.1" value="0.0">
+        <br>
+        <input type="submit" value="Move">
+    </form>
+</body>
+</html>
